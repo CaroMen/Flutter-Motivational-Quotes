@@ -18,7 +18,7 @@ class Quotes extends StatelessWidget {
           quotes[quoteIndex]['quote'],
         ),
         ...(quotes[quoteIndex]['quote'] as List<Map<String, Object>>).map(())
-      ],
+        return ///////
     );
   }
 }
